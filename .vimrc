@@ -48,6 +48,7 @@ Bundle 'klen/python-mode.git'
 Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'groenewege/vim-less'
 Bundle 'esneider/YUNOcommit.vim'
+Bundle 'octol/vim-cpp-enhanced-highlight'
 
 execute pathogen#infect()
 
@@ -61,7 +62,7 @@ set background=dark
 
 " Color scheme
 set t_Co=256
-colorscheme base16-default
+"colorscheme base16-default
 
 " Display line numbers
 set number

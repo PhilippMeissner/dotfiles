@@ -2,29 +2,23 @@
 alias gpl='git pull'
 alias gps='git push'
 alias gst='git status'
-alias gci='git commit'
-alias gca='git commit -a'
-alias gdf='git diff'
-alias gdc='git diff --cached'
-alias gad='git add'
+alias gc='git commit'
 alias gap='git add --patch'
-alias gri='git rebase -i'
-alias grh='git reset HEAD'
 
 # General aliases
 alias be='bundle exec'
 
-# mac related
-alias chromeunsafe='open -a Google\ Chrome --args --disable-web-security'
-
-# Postgres
-alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
-alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
-
 # Handy for zeitkit
-alias zlog="git log --all --author='Hendrik' --reverse --format=%B --max-count=80 | sed '/^$/d' | sed 's/^/* /'"
+alias zlog="git log --all --author='Phil' --reverse --format=%B --max-count=80 --since='2 days ago' | sed '/^$/d' | sed 's/^/* /'"
 
 # Other helpful
 alias log-today="vim $(date +%Y-%m-%d).md"
 
-alias f="find . -type f -name"
+alias sl="ls"
+alias l="ls -la"
+alias c="clear"
+alias mig="bundle exec rake db:migrate"
+alias berr="bundle exec rake routes"
+
+# Browse directly to zeitio
+alias zeit="cd && cd Desktop/zeitio/ && ls"

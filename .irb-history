@@ -1,0 +1,100 @@
+RedditCrawler.new
+RedditCrawler.new.perform
+RedditCrawler.new.perform
+RedditCrawler.new.perform
+RedditCrawler.new.perform
+exit
+exit
+RedditCrawler.new.perform
+RedditCrawlJobConverter.new.perform
+exit
+RedditCrawler.new.perform
+RedditCrawlJobConverter.new.perform
+exit
+User.first
+User.where("created_at ? ", "2015-03-10 20:08:18")
+User.where
+User.where(created_at: '2015-03-10 20:08:18')
+User.first
+User.first.created_at
+User.where(created_at: 'Tue, 10 Mar 2015 20:08:18 UTC +00:00')
+User
+User.first
+User.first.created_at
+User.first.created_at.date
+User.first.created_at.Date
+date = User.first.created_at
+date
+date.end_of_day
+date.day
+date.date
+u = User.where("created_at = ? ", User.first.created_at)
+u.count
+User.first.created_at
+date = User.first.created_at
+User.where("created_at = ? ", date)
+User.where("created_at = ? ", date).count
+User.where("created_at = ?", 2015-06-23)
+User.where("created_at = ?", 2015-06-23).count
+date = User.first.created_at
+date = User.first.created_at.to_date
+exit
+User
+User.connection
+d = Date.today
+User.where("created_at = ? ", date)
+User.where("created_at = ? ", d)
+User.where("created_at = ? ", d.to_day)
+User.where("created_at = ? ", d.to_date)
+d
+exit
+User.count(:group => 'date(created_at)')
+date
+User.count(:group => 'date(created_at)')
+User(:group => 'date(created_at)')
+User.(:group => 'date(created_at)')
+
+User.count(:group => 'date(created_at)')
+User.count(:group => 'date(created_at)').first
+User.count(:group => 'date(created_at)'.first)
+a = User.count(:group => 'date(created_at)')
+a
+a[0]
+a[:date]
+a
+exit
+Date.today
+Date.today.class
+User.first.created_at.class
+User.where("created_at = ? ", Date.today)
+User.where("created_at = ? ", Date.today)
+User.last.created_at
+User.where("created_at = ? ", "Thu, 23 Jul 2015".to_date)
+User.where("created_at = ? ", Date.today.to_date
+)
+u = User.all(group: :created_at)
+u = User.all(:group => :created_at)
+u = User.all(:group_by => :created_at)
+clea
+clea;;;;
+exit
+exit
+u = User.all.group("date(created_at)")
+u.first
+u.last
+u = User.all.group("date(created_at)").count
+clear
+exit
+User.where("created_at >= ?", 4.weeks.ago.beginning_of_day).group("DATE(created_at)").count
+User.where("created_at >= ?", 4.weeks.ago.beginning_of_day AS :created_at).group("DATE(created_at)").count
+User.where("created_at >= ?", 4.weeks.ago.beginning_of_day AS created_at).group("DATE(created_at)").count
+User.where("created_at >= ?", 4.weeks.ago.beginning_of_day).group("DATE(created_at)").count
+u = User.first
+u.created_at = Date.yesterday
+u.save!
+u.created_at = Date.today
+u.save!
+User.second
+u = User.second
+u.created_at = 4.days.ago
+u.save!

@@ -3,13 +3,10 @@ export ZSH=$HOME/.oh-my-zsh
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/bin:$PATH"
+# ssh bookmarks
+export PATH="$HOME/ssh-bookmarks:$PATH"
 # Node
 export PATH="/usr/local/share/npm/bin:$PATH"
-# Heroku toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-# Cabal Path
-export PATH="/Users/hendricius/.cabal/bin:$PATH"
-
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
