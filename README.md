@@ -12,10 +12,10 @@ Option 2: Use the install.sh script to get started fast. This will backup your
 existing dotfiles and use mine instead.
 
     # Make sure to have the following installed:
-    apt-get install git vim zsh ack-grep tmux curl ctags silversearcher-ag
+    apt-get install git vim zsh ack-grep tmux curl ctags
 
     # Download dotfiles
-    cd && git clone git://github.com/hendricius/dotfiles.git
+    cd && git clone git://github.com/philippmeissner/dotfiles.git
     cd ~/dotfiles/
     # Init submodules for oh-my-zsh and VIM
     git submodule init && git submodule update
