@@ -18,4 +18,4 @@
 [push]
 	default = matching
 [remote "origin"]
-  url = git@github.com/philippmeissner/dotfiles.git
+  url = git@github.com:PhilippMeissner/dotfiles.git
