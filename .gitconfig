@@ -17,5 +17,5 @@
   user = PhilippMeissner
 [push]
   default = matching
-[remote "origin"]
+[remote]
   url = git@github.com:PhilippMeissner/dotfiles.git
