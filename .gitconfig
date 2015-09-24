@@ -16,6 +16,6 @@
 [github]
   user = PhilippMeissner
 [push]
-	default = matching
+  default = matching
 [remote "origin"]
-  url = https://github.com/philippmeissner/dotfiles.git
+  url = git@github.com:PhilippMeissner/dotfiles.git
